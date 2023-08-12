@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\erick\\source\\repos\\EmprestimoLivros\\EmprestimoLivros.csproj",
+      "projectUniqueName": "C:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\EmprestimoLivros.csproj",
       "projectName": "EmprestimoLivros",
-      "projectPath": "C:\\Users\\erick\\source\\repos\\EmprestimoLivros\\EmprestimoLivros.csproj",
+      "projectPath": "C:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\EmprestimoLivros.csproj",
       "packagesPath": "C:\\Users\\erick\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\erick\\source\\repos\\EmprestimoLivros\\obj\\",
+      "outputPath": "C:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

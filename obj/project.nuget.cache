@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GUebjN83HozH79xaw1o0CbdN4u9VYzdIYJDxETJTosuJhyXCHf/fCvfrYiEk+vYgVuBGLOyxM46oAhqPc3v1cA==",
+  "dgSpecHash": "WBzT9BfTH20yDWzGN6Dq6FG9OjQuMCULyH8Q/DLnFQ73/Goi03DtoMU6TDM0104n9qZtn1VxdehM6r/WOWXsBA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\erick\\source\\repos\\EmprestimoLivros\\EmprestimoLivros.csproj",
+  "projectFilePath": "C:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\EmprestimoLivros.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
