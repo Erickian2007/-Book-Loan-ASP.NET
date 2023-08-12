@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\erick\source\repos\Book-Loan-ASP.NET
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/erick/source/repos/Book-Loan-ASP.NET/Views/Emprestimos/Cadastrar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzdGltb3NcQ2FkYXN0cmFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/erick/source/repos/Book-Loan-ASP.NET/Views/Emprestimos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW1wcmVzdGltb3NcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
