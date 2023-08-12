@@ -8,6 +8,6 @@ namespace EmprestimoLivros.Models
         public string? Recebedor { get; set; }
         public string? Fornecedor { get; set; }
         public string? LivroEmprestado { get; set; }
-        public DateAndTime? DataEmprestimo { get; set; }
+        public DateTime DataEmprestimo { get; set; } = DateTime.Now;
     }
 }
