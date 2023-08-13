@@ -21,7 +21,7 @@ namespace EmprestimoLivros.Migrations
                     Recebedor = table.Column<string>(type: "text", nullable: true),
                     Fornecedor = table.Column<string>(type: "text", nullable: true),
                     LivroEmprestado = table.Column<string>(type: "text", nullable: true),
-                    DataEmprestimo = table.Column<DateTime>(type: "timestamp with time zone", nullable: false)
+                    DataEmprestimo = table.Column<DateTime>(type: "date", nullable: false)
                 },
                 constraints: table =>
                 {

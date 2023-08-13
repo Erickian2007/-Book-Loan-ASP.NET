@@ -1,4 +1,5 @@
 ﻿using Microsoft.VisualBasic;
+using System.Security.Cryptography;
 
 namespace EmprestimoLivros.Models
 {
@@ -8,6 +9,11 @@ namespace EmprestimoLivros.Models
         public string? Recebedor { get; set; }
         public string? Fornecedor { get; set; }
         public string? LivroEmprestado { get; set; }
-        public DateTime DataEmprestimo { get; set; } = DateTime.Now;
+        public DateOnly DataEmprestimo { get; private set; }
+
+        public EmprestimosModel()
+        {
+            DataEmprestimo = new DateOnly(DateTime.Now.Year, DateTime.Now.Month, DateTime.Now.Day);
+        }
     }
 }
