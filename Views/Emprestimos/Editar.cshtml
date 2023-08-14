@@ -1,13 +1,12 @@
-﻿@model EmprestimosModel
-
+@model EmprestimosModel
 @{
-    ViewData["tittle"] = "Cadastrar";
+    ViewData["tittle"] = "Editar Empréstimo";
 }
 <br>
-<h1>Cadastrar Emprestimo</h1>
+<h1>Editar Empréstimo</h1>
 <br>
 <br>
-<form method="post" asp-controller="Emprestimos" asp-action="Cadastrar">
+<form method="post" asp-controller="Emprestimos" asp-action="Editar">
   
   <div class="mb-3">
     <label for="Recebedor" class="form-label">Recebedor</label>
@@ -28,7 +27,7 @@
   </div>
   
   <div class="d-flex gap-5 mt-5">
-    <button type="submit" class="btn btn-success w-50">Adicionar</button>
+    <button type="submit" class="btn btn-success w-50">Editar</button>
     <a class="btn btn-primary w-50" asp-controller="Emprestimos" asp-action="Index">Voltar</a>
   </div>
 

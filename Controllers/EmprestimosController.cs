@@ -11,11 +11,14 @@ namespace EmprestimoLivros.Controllers
         {
             _db = db;
         }
+
+        [HttpGet]
         public IActionResult Index()
         {
             IEnumerable<EmprestimosModel> emprestimos = _db.Emprestimos;
             return View(emprestimos);
         }
+
         [HttpGet]
         public IActionResult Cadastrar()
         {
@@ -32,6 +35,59 @@ namespace EmprestimoLivros.Controllers
                 return RedirectToAction("Index");
             }
             return View();
+        }
+
+        [HttpGet]
+        public IActionResult Editar(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            EmprestimosModel emprestimos = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
+            if (emprestimos == null)
+            {
+                return NotFound();
+            }
+            return View(emprestimos);
+        }
+        [HttpPost]
+        public IActionResult Editar(EmprestimosModel emprestimos)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Emprestimos.Update(emprestimos);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(emprestimos);
+        }
+
+        [HttpGet]
+        public IActionResult Excluir(int? id)
+        {
+            if (id == null || id == 0)
+            {
+                return NotFound();
+            }
+            
+            EmprestimosModel emprestimos = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
+            if (emprestimos == null)
+            {
+                return NotFound();
+            }
+            return View(emprestimos);
+        }
+        [HttpPost]
+        public IActionResult Excluir(EmprestimosModel emprestimos)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Emprestimos.Remove(emprestimos);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(emprestimos);
         }
     }
 }

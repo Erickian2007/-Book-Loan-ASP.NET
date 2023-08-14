@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JXz4DGwmOXkAOZIIOtzp7sZwrNOFgPC5hYGhILtIahVj6tkbuB5pcJ+aeh3rxrPeZyQ0TKsijepRUGoKk0M+9g==",
+  "dgSpecHash": "bFeS/OicAfPwsSwwWboFtogf13Mc8xQbs/OZ5tXn3lQ0SKfOwWAtyTKkn5HlEw1X9zFb3VUeSt6wKwkzPoG/qA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\EmprestimoLivros.csproj",
+  "projectFilePath": "c:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\EmprestimoLivros.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\erick\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\erick\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.10\\microsoft.entityframeworkcore.7.0.10.nupkg.sha512",

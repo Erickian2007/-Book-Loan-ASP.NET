@@ -3,7 +3,7 @@
 <div class="conteiner">
     <div class="d-flex justify-content-between align-itens-center mb-5">
         <h1>Empréstimos</h1>
-        <a class="btn btn-success mx-2" asp-controller="Emprestimos" asp-action="Cadastrar">
+        <a class="btn btn-success my-2" asp-controller="Emprestimos" asp-action="Cadastrar">
             Fazer Empréstimo
         </a>
     </div>
@@ -11,12 +11,11 @@
 <table class="table table-hover">
     <thead>
     <tr>
-      <th scope="col">#</th>
       <th scope="col">Recebedor</th>
       <th scope="col">Fornecedor</th>
       <th scope="col">Livro Fornecido</th>
       <th scope="col">Data Do Emprestimo</th>
-
+      <th></th>
     </tr>
   </thead>
   <tbody>
@@ -26,11 +25,14 @@
             @foreach(var emprestimos in Model)
             {
                 <tr>
-                    <th scope="row">@emprestimos.Id</th>
                     <td>@emprestimos.Recebedor</td>
                     <td>@emprestimos.Fornecedor</td>
                     <td>@emprestimos.LivroEmprestado</td>
                     <td>@emprestimos.DataEmprestimo</td>
+                    <td>
+                        <a asp-controller="Emprestimos" asp-action="Editar" asp-route-id="@emprestimos.Id" class="btn btn-warning mx-4">Editar</a>
+                        <a asp-asp-controller="Emprestimos" asp-action="Excluir" asp-route-id="@emprestimos.Id" class="btn btn-danger mx-4">Excluir</a>
+                    </td>
                 </tr>
             }
         }
