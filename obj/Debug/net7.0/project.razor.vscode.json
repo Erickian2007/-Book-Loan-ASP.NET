@@ -24080,6 +24080,11 @@
       "FilePath": "c:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\Views\\Emprestimos\\Editar.cshtml",
       "TargetPath": "Views\\Emprestimos\\Editar.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\Views\\Home\\Cadastrar.cshtml",
+      "TargetPath": "Views\\Home\\Cadastrar.cshtml",
+      "FileKind": "mvc"
     }
   ]
 }
