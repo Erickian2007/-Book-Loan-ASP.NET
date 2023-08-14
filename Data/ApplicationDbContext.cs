@@ -8,5 +8,6 @@ namespace EmprestimoLivros.Data
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
         public DbSet<EmprestimosModel> Emprestimos { get; set; }
+        public DbSet<RegistroModel> Registro { get; set; }
     }
 }
