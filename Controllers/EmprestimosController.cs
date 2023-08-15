@@ -29,10 +29,17 @@ namespace EmprestimoLivros.Controllers
         {
             if(ModelState.IsValid)
             {
-                emprestimos.Id = _db.Emprestimos.Count<EmprestimosModel>() + 1;
-                _db.Emprestimos.Add(emprestimos);
-                _db.SaveChanges();
-                return RedirectToAction("Index");
+                try
+                {
+                    _db.Emprestimos.Add(emprestimos);
+                    _db.SaveChanges();
+                    return RedirectToAction("Index");
+
+                }
+                catch (Exception ex)
+                {
+                    return RedirectToAction("Index");
+                }
             }
             return View();
         }
@@ -44,7 +51,7 @@ namespace EmprestimoLivros.Controllers
             {
                 return NotFound();
             }
-            EmprestimosModel emprestimos = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
+            EmprestimosModel? emprestimos = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
             if (emprestimos == null)
             {
                 return NotFound();
@@ -71,7 +78,7 @@ namespace EmprestimoLivros.Controllers
                 return NotFound();
             }
             
-            EmprestimosModel emprestimos = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
+            EmprestimosModel? emprestimos = _db.Emprestimos.FirstOrDefault(x => x.Id == id);
             if (emprestimos == null)
             {
                 return NotFound();

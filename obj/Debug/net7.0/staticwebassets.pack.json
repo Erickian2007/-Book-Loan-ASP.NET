@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\EmprestimoLivros.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\wwwroot\\css\\materia.css",
+      "PackagePath": "staticwebassets\\css\\materia.css"
+    },
+    {
       "Id": "C:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

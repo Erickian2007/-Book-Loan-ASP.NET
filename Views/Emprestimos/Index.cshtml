@@ -1,10 +1,12 @@
 ﻿@model IEnumerable<EmprestimosModel>
-
+@{
+    ViewData["Title"] = "Emprestimos";
+}
 <div class="conteiner">
     <div class="d-flex justify-content-between align-itens-center mb-5">
         <h1>Empréstimos</h1>
         <a class="btn btn-success my-2" asp-controller="Emprestimos" asp-action="Cadastrar">
-            Fazer Empréstimo
+            <i class="bi bi-person-add"></i> Fazer Empréstimo
         </a>
     </div>
 
@@ -30,8 +32,8 @@
                     <td>@emprestimos.LivroEmprestado</td>
                     <td>@emprestimos.DataEmprestimo</td>
                     <td>
-                        <a asp-controller="Emprestimos" asp-action="Editar" asp-route-id="@emprestimos.Id" class="btn btn-warning mx-4">Editar</a>
-                        <a asp-asp-controller="Emprestimos" asp-action="Excluir" asp-route-id="@emprestimos.Id" class="btn btn-danger mx-4">Excluir</a>
+                            <a asp-controller="Emprestimos" asp-action="Editar" asp-route-id="@emprestimos.Id" class="btn btn-warning mx-4"><i class="bi bi-pencil-square"></i> Editar</a>
+                            <a asp-asp-controller="Emprestimos" asp-action="Excluir" asp-route-id="@emprestimos.Id" class="btn btn-danger mx-4"><i class="bi bi-trash"></i> Excluir</a>
                     </td>
                 </tr>
             }
