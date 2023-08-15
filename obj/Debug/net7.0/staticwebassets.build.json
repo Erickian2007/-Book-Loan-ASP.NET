@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jOzEBCMDTrV+gJssZmevUYbmX8mB2T5iAV+6s+3dz44=",
+  "Hash": "L8lJXpYrQi81smoMs7PoRWbr+LR6cXt/6oGY9qVxgQY=",
   "Source": "EmprestimoLivros",
   "BasePath": "_content/EmprestimoLivros",
   "Mode": "Default",
@@ -100,6 +100,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\wwwroot\\img\\book.png",
+      "SourceId": "EmprestimoLivros",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\wwwroot\\",
+      "BasePath": "_content/EmprestimoLivros",
+      "RelativePath": "img/book.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\book.png"
+    },
+    {
+      "Identity": "C:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\wwwroot\\img\\open-book-svgrepo-com.png",
+      "SourceId": "EmprestimoLivros",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\wwwroot\\",
+      "BasePath": "_content/EmprestimoLivros",
+      "RelativePath": "img/open-book-svgrepo-com.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\open-book-svgrepo-com.png"
     },
     {
       "Identity": "C:\\Users\\erick\\source\\repos\\Book-Loan-ASP.NET\\wwwroot\\js\\site.js",
